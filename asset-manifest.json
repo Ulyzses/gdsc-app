@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/gdsc-app/static/css/main.81f1bb70.chunk.css",
-    "main.js": "/gdsc-app/static/js/main.43f8682e.chunk.js",
-    "main.js.map": "/gdsc-app/static/js/main.43f8682e.chunk.js.map",
+    "main.css": "/gdsc-app/static/css/main.349100dc.chunk.css",
+    "main.js": "/gdsc-app/static/js/main.db4f202c.chunk.js",
+    "main.js.map": "/gdsc-app/static/js/main.db4f202c.chunk.js.map",
     "runtime-main.js": "/gdsc-app/static/js/runtime-main.13dbfe69.js",
     "runtime-main.js.map": "/gdsc-app/static/js/runtime-main.13dbfe69.js.map",
-    "static/js/2.7d23a6b4.chunk.js": "/gdsc-app/static/js/2.7d23a6b4.chunk.js",
-    "static/js/2.7d23a6b4.chunk.js.map": "/gdsc-app/static/js/2.7d23a6b4.chunk.js.map",
+    "static/js/2.936c462d.chunk.js": "/gdsc-app/static/js/2.936c462d.chunk.js",
+    "static/js/2.936c462d.chunk.js.map": "/gdsc-app/static/js/2.936c462d.chunk.js.map",
     "index.html": "/gdsc-app/index.html",
-    "static/css/main.81f1bb70.chunk.css.map": "/gdsc-app/static/css/main.81f1bb70.chunk.css.map",
-    "static/js/2.7d23a6b4.chunk.js.LICENSE.txt": "/gdsc-app/static/js/2.7d23a6b4.chunk.js.LICENSE.txt"
+    "static/css/main.349100dc.chunk.css.map": "/gdsc-app/static/css/main.349100dc.chunk.css.map",
+    "static/js/2.936c462d.chunk.js.LICENSE.txt": "/gdsc-app/static/js/2.936c462d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.13dbfe69.js",
-    "static/js/2.7d23a6b4.chunk.js",
-    "static/css/main.81f1bb70.chunk.css",
-    "static/js/main.43f8682e.chunk.js"
+    "static/js/2.936c462d.chunk.js",
+    "static/css/main.349100dc.chunk.css",
+    "static/js/main.db4f202c.chunk.js"
   ]
 }
