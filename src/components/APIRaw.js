@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react"
-import DisplayData from "./DisplayData";
 
 import TitleRow from "./TitleRow"
 
-const API = () => {
+const APIRaw = () => {
   const [ data, setData ] = useState({})
 
   const refreshData = async () => {
@@ -24,10 +23,14 @@ const API = () => {
 
   return (
     <>
-      <TitleRow titleText="Stage 3" buttonText="Reload API" buttonAction={refreshData} />
+      <TitleRow titleText="Stage 2" buttonText="Reload API" buttonAction={refreshData} />
 
       { ( Object.keys(data).length > 0 ) ? (
-          <DisplayData data={data} />
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-10">
+              <pre className="border" id="json">{JSON.stringify(data, null, 2)}</pre>
+            </div>
+          </div>
         ) : (
           <div className="row">
             <div className="col">
@@ -40,4 +43,4 @@ const API = () => {
   )
 }
 
-export default API
+export default APIRaw

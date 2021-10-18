@@ -13,11 +13,20 @@ const Increment = () => {
 
   return (
     <>  
-      <TitleRow titleText="Increment" buttonText="Add 1" buttonAction={incrementCount} />
+      <TitleRow titleText="Stage 1" buttonText="Add 1" buttonAction={incrementCount} />
 
       <div className="row">
-        <div className="col d-flex justify-content-center">
-          <Count count={count} />
+        <div className="col d-flex align-items-center flex-column">
+          <div className="row">
+            <div className="col">
+              <Count count={count} />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <h4>COUNT</h4>
+            </div>
+          </div>
         </div>
       </div>
     </>

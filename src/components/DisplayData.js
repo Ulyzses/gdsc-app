@@ -22,7 +22,7 @@ const DisplayData = ({ data }) => {
 
       </div>
       <div className="col-lg-2 col-md-3 order-first order-md-2 d-flex align-items-top justify-content-center px-0">
-        <div className="d-inline-flex flex-column align-items-center justify-content-start w-100 h-100 pb-3">
+        <div className="d-inline-flex flex-column align-items-center justify-content-start w-100 h-100 pb-3 pr-3">
           <img id="icon" className="align-self-center border w-100 rounded-circle" src={data.picture.large} alt="" />
         </div>
       </div>
